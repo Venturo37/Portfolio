@@ -1,6 +1,6 @@
 /* FONT STYLE POPPINS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+/* Font Size 300 - 900 */
 /* Color 
     000000  white
     e5e5e5  grey
@@ -12,12 +12,15 @@
 :root {
     --text-color: #000000;
     --hover-text-color: #fca311;
+    --button-hover-color: #14213d;
+    --change-txt-colour: #ffffff;
 }
 
 /* STYLING */
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -28,7 +31,7 @@ body {
 
 /* NAVIGATION */
 nav , .navigation-links{
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
     display: flex;
     align-items: center;
     height: 15vh;
@@ -36,6 +39,10 @@ nav , .navigation-links{
     list-style: none;
     font-size: 2.5rem;
     font-weight: 800;
+}
+.logo a {
+    cursor: pointer;
+    text-decoration: none;
     color: #fca311;
 }
 .navigation-links, .navigation-links a {
@@ -52,3 +59,86 @@ nav , .navigation-links{
 }
 
 
+/* PROFILE DESIGN */
+section {
+    /* background-color: #e7e7e7; */
+    height: 85vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.profile_pic {
+    display: flex;
+    width: fit-content;
+    margin: auto 0;
+    /* border: 5px solid; */
+}
+.pic {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+.text {
+    align-content: center;
+    text-align: center;
+}
+.text p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.title {
+    color: #fca311;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* border: #000000 solid; */
+    margin: 2rem;
+}
+.btn {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--button-hover-color);
+    color: var(--change-txt-colour);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    /* border: #000000 solid; */
+    gap: 2rem;
+}
+.icon {
+    cursor: pointer;
+    height: 3rem;
+}
+.icon:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+}
+.double_arrow_down .material-symbols-outlined{
+    position: absolute;
+    font-size: 3.5rem;
+    font-weight: 700;
+    bottom: 3rem;
+
+}
