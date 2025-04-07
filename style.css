@@ -20,11 +20,11 @@
     padding: 0;
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
 }
+
 
 /* NAVIGATION */
 nav , .navigation-links{
@@ -50,3 +50,5 @@ nav , .navigation-links{
     transform: scale(1.2);
     transition: .2s ease-in-out;
 }
+
+
