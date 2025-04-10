@@ -20,18 +20,20 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
 }
-
+button , img, .double_arrow_down{
+    user-select: none;
+}
 
 /* NAVIGATION */
 nav , .navigation-links{
     /* background-color: #e5e5e5; */
+    user-select: none;
     display: flex;
     align-items: center;
     height: 15vh;
@@ -140,5 +142,5 @@ section {
     font-size: 3.5rem;
     font-weight: 700;
     bottom: 3rem;
-
+    right: 5rem;
 }
