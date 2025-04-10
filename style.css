@@ -17,6 +17,9 @@
 }
 
 /* STYLING */
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -63,18 +66,21 @@ nav , .navigation-links{
 
 /* PROFILE DESIGN */
 section {
+    padding-top: 3rem;
     /* background-color: #e7e7e7; */
     height: 85vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    text-align: center;
 }
 
 #profile {
+    /* background-color: antiquewhite; */
+    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    gap: 3rem;
 }
 .profile_pic {
     display: flex;
@@ -141,6 +147,8 @@ section {
     position: absolute;
     font-size: 3.5rem;
     font-weight: 700;
-    bottom: 3rem;
+    bottom: 2.5rem;
     right: 5rem;
+    cursor: pointer;
 }
+
