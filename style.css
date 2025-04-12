@@ -149,9 +149,6 @@ section {
 }
 
 /* ABOUT */
-#about {
-    position: relative;
-}
 .about_section {
     display: flex;
     align-items: center;
@@ -205,7 +202,8 @@ section {
     display: flex;
     text-align: left;
     gap: 1rem;
-    margin: .5rem 0;
+    margin-bottom: .5rem;
+    
 }
 .skill_box .check {
     margin-top: .5rem;
