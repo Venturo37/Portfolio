@@ -79,13 +79,12 @@ section {
     /* background-color: antiquewhite; */
     padding: 0;
     display: flex;
-    justify-content: center;
-    gap: 3rem;
+    justify-content:center;
+    
 }
 .profile_pic {
     display: flex;
-    width: fit-content;
-    margin: auto 0;
+    margin: auto;
     /* border: 5px solid; */
 }
 .pic {
