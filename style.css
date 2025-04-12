@@ -158,6 +158,7 @@ section {
 .about_me_pic {
     position: relative;
     height: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,12 +181,12 @@ section {
 }
 .about_me_pic img:last-child {
     bottom: 50px;
-    left: 300px;
+    left: 40%;
     rotate: 8deg;
 }
 .about {
-    width: 50%;
-    font-size: 1.5rem;
+    max-width: 50%;
+    font-size: 1.5vw;
     text-align: justify;
 }
 .about_skill {
