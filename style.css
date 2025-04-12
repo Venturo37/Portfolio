@@ -151,9 +151,6 @@ section {
 }
 
 /* ABOUT */
-#about {
-    position: relative;
-}
 .about_section {
     display: flex;
     align-items: center;
