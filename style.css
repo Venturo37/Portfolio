@@ -31,6 +31,8 @@ body {
 }
 button , img, .double_arrow_down{
     user-select: none;
+    -webkit-user-drag: none;
+
 }
 
 /* NAVIGATION */
@@ -66,7 +68,7 @@ nav , .navigation-links{
 
 /* PROFILE DESIGN */
 section {
-    padding-top: 1rem;
+    padding-top: 2rem;
     position: relative;
     height: 85vh;
     margin: 0 10rem;
@@ -156,12 +158,37 @@ section {
 .about_section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: space-between;
     height: 100%;
 }
+.about_me_pic {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+}
+.about_me_pic img {
+    height: 70vh;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    pointer-events: none;
+    border-radius: 26px;
+    position: absolute;
+}
+.about_me_pic img:first-child {
+    top: -60px;
+    left: 50px;
+    rotate: -10deg;
+}
+.about_me_pic img:last-child {
+    bottom: 50px;
+    left: 200px;
+    rotate: 8deg;
+}
 .about {
-    width: 40%;
+    width: 50%;
     font-size: 1.5rem;
     text-align: justify;
 }
