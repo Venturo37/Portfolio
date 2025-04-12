@@ -44,7 +44,7 @@ nav , .navigation-links{
     height: 15vh;
     justify-content: space-around;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 2.8vw;
     font-weight: 800;
 }
 .logo a {
@@ -53,7 +53,7 @@ nav , .navigation-links{
     color: #fca311;
 }
 .navigation-links, .navigation-links a {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 600;
     gap: 30px;
     text-decoration: none;
@@ -69,7 +69,6 @@ nav , .navigation-links{
 /* PROFILE DESIGN */
 section {
     padding-top: 1.5rem;
-    
     position: relative;
     height: 85vh;
     margin: 0 10%;
@@ -97,12 +96,12 @@ section {
     text-align: center;
 }
 .text p , .text_sub_title{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 600;
 }
 .title {
     color: #fca311;
-    font-size: 3rem;
+    font-size: 3.6vw;
     margin-bottom: .5rem;
 }
 .btn_container {
@@ -185,18 +184,17 @@ section {
     rotate: 8deg;
 }
 .about {
-    max-width: 50%;
+    width: 50%;
     font-size: 1.5vw;
     text-align: justify;
 }
-.about_skill {
-    text-align: left;
+/* SKILLS */
+.skills_section {
     border: #000000 solid;
     padding: .5rem 1.2rem;
     border-radius: 2rem;
-    max-width: 40%;
 }
-.about_skill .text_sub_title {
+.skills_section .text_sub_title {
     font-size: 2.3rem;
     font-weight: 700;
     margin-left: 2rem;
