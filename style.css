@@ -68,31 +68,29 @@ nav , .navigation-links{
 
 /* PROFILE DESIGN */
 section {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    
     position: relative;
     height: 85vh;
-    margin: 0 10rem;
+    margin: 0 10%;
     box-sizing: border-box;
     min-height: fit-content;
     text-align: center;
 }
 
 #profile {
-    /* background-color: antiquewhite; */
+    top: -1vh;
     padding: 0;
     display: flex;
-    justify-content:center;
-    
+    justify-content:space-around;
 }
 .profile_pic {
     display: flex;
-    margin: auto;
-    /* border: 5px solid; */
+    margin: auto 5%;
 }
 .pic {
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    width: 100%;
 }
 .text {
     align-content: center;
