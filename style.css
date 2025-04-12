@@ -109,7 +109,6 @@ section {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    /* border: #000000 solid; */
     margin: 2rem;
 }
 .btn {
@@ -117,7 +116,7 @@ section {
     font-weight: 600;
     padding: 1rem;
     width: 12rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
     background-color: #ffffff;
     cursor: pointer;
 }
