@@ -222,7 +222,10 @@ section {
 .skill_description{
     font-size: 1.2vw;
 }
-
 .check img {
     width: 3.9vw;
+}
+/* EXPERIENCE */
+.experience_container {
+    height: 100%;
 }
