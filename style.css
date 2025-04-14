@@ -229,3 +229,29 @@ section {
 .experience_container {
     height: 100%;
 }
+.experience_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 2%;
+}
+.experience_box {
+    padding: 3%;
+    height: 30vh;
+    border-radius: 1.5vw;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+.experience_box .experience_title{
+    font-size: 1.2vw;
+    height: 60%;
+    align-content: center;
+}
+.experience_box p {
+    font-size: 1.1vw;
+}
+.experience_box:hover {
+    scale: 1.1;
+    color: #14213d;
+    background-color: #fca311;
+    border: #14213d 5px solid;
+}
