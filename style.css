@@ -37,7 +37,6 @@ button , img, .double_arrow_down{
 
 /* NAVIGATION */
 nav , .navigation-links{
-    /* background-color: #e5e5e5; */
     user-select: none;
     display: flex;
     align-items: center;
@@ -57,10 +56,10 @@ nav , .navigation-links{
     font-weight: 600;
     gap: 30px;
     text-decoration: none;
-    color: var(--text-color);
+    color: #14213d;
 }
 .navigation-links a div:hover {
-    color: var(--hover-text-color);
+    color: #fca311;
     transform: scale(1.2);
     transition: .2s ease-in-out;
 }
@@ -120,25 +119,24 @@ section {
     cursor: pointer;
 }
 .btn:hover {
-    background-color: var(--button-hover-color);
-    color: var(--change-txt-colour);
+    background-color: #14213d;
+    color: #ffffff;
     transform: scale(1.1);
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 #socials {
     display: flex;
     justify-content: center;
-    /* border: #000000 solid; */
-    gap: 2rem;
+    gap: 3vw;
 }
 .icon {
     cursor: pointer;
     height: 3rem;
 }
 .icon:hover {
-    transition: .2s ease-in-out;
-    transform: scale(1.2);
+    transition: .1s ease-in-out;
+    transform: scale(1.5);
 }
 .arrow_container{
     position: absolute;
@@ -254,4 +252,29 @@ section {
     color: #14213d;
     background-color: #fca311;
     border: #14213d 5px solid;
+}
+/* CONTACT */
+.contact_container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_section {
+    cursor: pointer;
+    border: #14213d 5px solid;
+    border-radius: 7vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    gap: 2%;
+    transition: .1s ease-in-out;
+}
+.contact_section:hover {
+    scale: 1.3;
+    font-weight: bold;
+    color: #fca311;
+    border: #14213d 3px solid;
 }
