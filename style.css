@@ -8,13 +8,6 @@
     14213d  dark blue
     000000  black
 */
-/* VARIABLES - CALL var(*variable*)*/
-:root {
-    --text-color: #000000;
-    --hover-text-color: #fca311;
-    --button-hover-color: #14213d;
-    --change-txt-colour: #ffffff;
-}
 
 /* STYLING */
 html {
@@ -32,7 +25,6 @@ body {
 button , img, .double_arrow_down{
     user-select: none;
     -webkit-user-drag: none;
-
 }
 
 /* NAVIGATION */
@@ -61,7 +53,7 @@ nav , .navigation-links{
 .navigation-links a div:hover {
     color: #fca311;
     transform: scale(1.2);
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 
@@ -182,7 +174,7 @@ section {
     rotate: 8deg;
 }
 .about {
-    width: 50%;
+    width: 45%;
     font-size: 1.5vw;
     text-align: justify;
 }
@@ -191,7 +183,6 @@ section {
     height: 100%;
 }
 .skills_section {
-    border-radius: 1.5rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -204,11 +195,12 @@ section {
     align-content: center;
     border-radius: 20px;
     transition: .1s ease-in-out;
+    cursor:default;
 }
 .skill_box:hover {
-    background-color: #e5e5e5;
-    transform: scale(1.05)
-
+    background-color: #fca311;
+    transform: scale(1.05);
+    border: #14213d 5px solid;
 }
 .check {
     display: flex;
@@ -254,6 +246,9 @@ section {
     border: #14213d 5px solid;
 }
 /* CONTACT */
+#contact {
+    padding-top: 3rem;
+}
 .contact_container {
     height: 70%;
     display: flex;
@@ -277,4 +272,11 @@ section {
     font-weight: bold;
     color: #fca311;
     border: #14213d 3px solid;
+}
+/* FOOTER */
+footer {
+    background-color: #14213d;
+}
+footer #navigation .navigation-links a {
+    color: #ffffff;
 }
