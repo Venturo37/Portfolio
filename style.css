@@ -75,11 +75,19 @@ section {
     justify-content:space-around;
 }
 .profile_pic {
+    width: 80vh;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #628ff8;
     display: flex;
     margin: auto 5%;
 }
 .pic {
-    border-radius: 50%;
+    position: absolute;
+    transform: scale(0.8);
+    top: -15%;
     width: 100%;
 }
 .text {
